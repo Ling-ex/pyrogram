@@ -48,7 +48,7 @@ class GetDialogs:
         """
         current = 0
         total = limit or (1 << 31) - 1
-        limit = min(100, total)
+        limit = min(10000, total)
 
         offset_date = 0
         offset_id = 0
